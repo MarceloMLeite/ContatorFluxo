@@ -100,7 +100,7 @@ class _HomePageState extends State<HomePage> {
                     ),
                   ),
                 ),
-                const SizedBox(width: 32),
+                const SizedBox(width: 30),
                 TextButton(
                   onPressed: isFull ? null : increment,
                   style: TextButton.styleFrom(
