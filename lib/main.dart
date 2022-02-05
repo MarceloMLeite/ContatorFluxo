@@ -60,8 +60,8 @@ class _HomePageState extends State<HomePage> {
         child: Column(
           mainAxisAlignment: MainAxisAlignment.center,
           children: [
-             Text(
-             isFull ? 'Lotado' :'Pode entrar!',
+            Text(
+              isFull ? 'Lotado' :'Pode entrar!',
               style:  TextStyle(
                 fontSize: 30,
                 color: isFull ? Colors.red : Colors.white,
@@ -127,6 +127,6 @@ class _HomePageState extends State<HomePage> {
       ),
     );
   }
-  }
+}
 
 
